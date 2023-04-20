@@ -1,0 +1,78 @@
+*{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: aquamarine;
+    transition: background-color 0.5s ease-in-out;
+    z-index: 100;
+    
+}
+nav.scrolled{
+    background-color: black;
+}
+nav img{
+    width: 50px;
+    margin: 5px 0px 2px 30px;
+}
+
+git initsection h1{
+    text-align: left;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    padding: 45px 100px 45px 100px;
+    background-color:#34C2DB;
+}
+section{
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 45px 100px 45px 100px;
+        background-color: #F5F5F5;
+        font-weight: 400;
+        line-height: 1.6667 ;
+}
+.section3 p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 45px 100px 45px 100px;
+    background-color: #F5F5F5;
+    font-weight: 400;
+    line-height: 1.6667 ;
+}
+.section4 p{ 
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 45px 100px 45px 100px;
+    
+    font-weight: 400;
+    line-height: 1.6667 ;
+}
+.section4 img{
+    width: 150px;
+    line-height: 1.6667;
+}
+.data{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 40px;
+    padding:0px 180px 0px 180px;
+}
+.section4 div   {
+    margin-bottom: 60px;
+} 
+.footer p{
+    text-align: left;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    padding: 45px 100px 45px 100px;
+    background-color:#34C2DB;
+    color: black;
+}
+a{
+    text-decoration: none;
+
+}
