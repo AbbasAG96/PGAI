@@ -1,78 +1,154 @@
-*{
-    background-color: white;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+}
+    
+a {
+    text-decoration: underline;
+    color: black;
 }
 
-nav{
+.bgimg {
+    padding: 200px;
+    background-image: url(./DataFriendlySpacelogo.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
     position: sticky;
     top: 0;
     background-color: aquamarine;
     transition: background-color 0.5s ease-in-out;
     z-index: 100;
-    
 }
-nav.scrolled{
+
+nav.scrolled {
     background-color: black;
 }
-nav img{
+
+nav img {
     width: 50px;
     margin: 5px 0px 2px 30px;
 }
 
-git initsection h1{
-    text-align: left;
-    font-family: lato, sans-serif;
-    font-weight: 400;
-    padding: 45px 100px 45px 100px;
-    background-color:#34C2DB;
+.section-1 h1, 
+.section-1 p {
+    padding: 45px 120px 45px 120px;
+    background-color: #34C2DB;
 }
-section{
-        text-align: left;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 45px 100px 45px 100px;
-        background-color: #F5F5F5;
-        font-weight: 400;
-        line-height: 1.6667 ;
+
+.section-1 h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
 }
-.section3 p{
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 45px 100px 45px 100px;
+
+.section-1 p {
     background-color: #F5F5F5;
-    font-weight: 400;
-    line-height: 1.6667 ;
 }
-.section4 p{ 
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 45px 100px 45px 100px;
-    
+
+.section-1 p,
+.section-2 p,
+.section-3 p,
+.data div {
+    line-height: 27px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 1.6667 ;
+    font-family: 'Arimo', sans-serif;
 }
-.section4 img{
+
+.section-2 p {
+    background-color: #fff;
+    padding: 45px 120px 45px 120px;
+}
+
+.section-2 img {
     width: 150px;
     line-height: 1.6667;
 }
-.data{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    column-gap: 40px;
-    padding:0px 180px 0px 180px;
-}
-.section4 div   {
-    margin-bottom: 60px;
-} 
-.footer p{
-    text-align: left;
-    font-family: lato, sans-serif;
-    font-weight: 400;
-    padding: 45px 100px 45px 100px;
-    background-color:#34C2DB;
-    color: black;
-}
-a{
-    text-decoration: none;
 
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 100px 40px 100px;
 }
+
+.data div {
+    padding-bottom: 30px;
+    width: calc((100% - 25%) / 4);
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+
+.data span {
+    font-size: 20px;
+    color: #212121;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 80px;
+}
+
+.section-3 p,
+footer p {
+    font-family: 'Lato', sans-serif;
+    padding: 35px 120px 35px 120px;
+}
+
+.section-3 p {
+    background-color: #34C2DB;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .bgimg {
+      padding: 20vw;
+    }
+    
+    nav img {
+      width: 9vw;
+      margin: 1vw 0 0 10vw;
+    }
+  
+    .section-1 h1,
+    .section-1 p {
+      padding: 10vw 10vw;
+    }
+    
+    .section-1 h1 {
+      font-size: 7vw;
+    }
+    
+    .section-2 p {
+      padding: 10vw 10vw;
+    }
+    
+    .section-2 img {
+      width: 40vw;
+    }
+    
+    .data {
+      padding: 0 20vw;
+    }
+    
+    .data div {
+      width: 100%;
+    }
+    
+    .data span {
+      font-size: 4vw;
+      margin-bottom: 10vw;
+    }
+    
+    .section-3 p,
+    footer p {
+      padding: 5vw 10vw;
+    }
+  }
