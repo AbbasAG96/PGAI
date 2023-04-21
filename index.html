@@ -1,70 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Client Project</title>
-</head>
-    <body>
-        <div class="container">
-            <nav> 
-                <img src="./PGAILogo.png" alt=""> 
-            </nav>
-                
-        <section>
-            <h1>Partnership on Generative AI for Humanitarian Applicants</h1>
-                
-            <p>The Partnership on Generative AI for Humanitarian Applications links humanitarian organizations and tech companies interested in uses of large language models for good. Members help one another scope projects, deploy models, troubleshoot code and carry out basic testing.</p>
-        </section>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <img src="./images/PGAILogo.png" alt="" />
+        </nav>
+        <div class="center-div">
+          <img src="./images/pcenter.jpg" class="center-img" alt="" />
+        </div>
+      </header>
+      <div class="section-header">
+        <h2>Partnership on Generative AI for Humanitarian Applicants</h2>
+      </div>
+      <section>
+        <p>
+          The
+          <span class="emphasized-text"
+            >Partnership on Generative AI for Humanitarian Applications</span
+          >
+          links humanitarian organizations and tech companies interested in uses
+          of large language models for good. Members help one another scope
+          projects, deploy models, troubleshoot code and carry out basic
+          testing.
+        </p>
+      </section>
 
-        <section>
-            <p>The partnership aims to help humanitarian actors overcome technical challenges associated with deploying sophisticated new generative AI models, speeding up applicational development through collaboration and resource sharing. Working through the partnership makes it easer for humanitarian actors to forge ties with generative AI players around humanitarian applications and around issues like trust, safety and security.</p>
-            
-            <div class="data">
-                <div>
-                    <img src="./DataFriendlySpacelogo.png" alt="DataFriendlySpacelogo">
-                </div>
+      <section class="services">
+        <p>
+          The partnership aims to help humanitarian actors overcome technical
+          challenges associated with deploying sophisticated new generative AI
+          models, speeding up applicational development through collaboration
+          and resource sharing. Working through the partnership makes it easer
+          for humanitarian actors to forge ties with generative AI players
+          around humanitarian applications and around issues like trust, safety
+          and security.
+        </p>
 
-                <div> <span>Data Friendly Space</span> 
-                    Data Friendly Space makes modern data systems and data science accessible to the humanitarian and development communities. 
-                </div>
-                        
-                <div>
-                    <img src="./CrisisReadyLogo.png" alt="CrisisReadyLogo">
-                </div>
-                        
-                <div> <span>Crisis Ready</span>                     
-                    CrisisReady is based at Harvard University and Direct Relief, and collaborates with academic partners, technology companies and response agencies around the world to embed data-driven decision-making into local disaster planning.
-                </div>
-                        
-                <div>  
-
-                </div>
-                        
-                <div> <span>Omdena</span> 
-                    Omdena provides the global community of AI engineers with a platform to gather and collaboratively build solutions to real-world problems.
-                </div>
-                        
-                <div>
-                    <img src="./HAILongLogo.png" alt="HAILongLogo">
-                </div>
-                        
-                <div><span>Humanitarian AI Meetup community</span> 
-                    The Humanitarian AI meetup community links local groups in fifteen cities. Members discuss humanitarian applications of artificial intelligence and work on volunteer projects.
-                </div>
-                
+        <div class="services-list">
+          <div class="service-container">
+            <img
+              src="./images/DataFriendlySpacelogo.png"
+              alt="DataFriendlySpacelogo"
+              class="service-image"
+            />
+            <div class="service-content">
+              <a href="/#">Data Friendly Space</a>
+              <p>
+                <span class="emphasized-text">Data Friendly Space</span> makes modern data systems and data science
+                accessible to the humanitarian and development communities.
+              </p>
             </div>
-        </section>
+          </div>
 
-        <section>
-            <p>Learn more and apply to join the partnership: <a href="https://github.com/Partnership-on-Generative-AI/About">Github</a></p>
-        </section>
-        <footer>
-            <p>Contact: team (at) pgai.dev</p>
-        </footer>            
+          <div class="service-container">
+            <img src="./images/CrisisReadyLogo.png" alt="CrisisReadyLogo" class="service-image" />
+            <div class="service-content">
+              <a href="/#">Crisis Ready</a>
+              <p>
+                <span class="emphasized-text">CrisisReady</span> is based at Harvard University and Direct Relief,
+                and collaborates with academic partners, technology companies
+                and response agencies around the world to embed data-driven
+                decision-making into local disaster planning.
+              </p>
+            </div>
+          </div>
 
+          <div class="service-container">
+            <img src="./images/omdena.jpg" alt="omdena" class="service-image" />
+            <div class="service-content">
+              <a href="/#">Omdena</a>
+              <p>
+                <span class="emphasized-text">Omdena</span> provides the global community of AI engineers with a
+                platform to gather and collaboratively build solutions to
+                real-world problems.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-container">
+            <img src="./images/humanitarian.jpg" alt="HAILongLogo" class="service-image" />
+            <div class="service-content">
+              <a href="/#">Humanitarian AI Meetup community</a>
+              <p>
+                The <span class="emphasized-text">Humanitarian AI</span> meetup community links local groups in
+                fifteen cities. Members discuss humanitarian applications of
+                artificial intelligence and work on volunteer projects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer-cta">
+        <p>
+            <span class="emphasized-text">Learn more</span> and apply to join the partnership:
+          <a href="https://github.com/Partnership-on-Generative-AI/About"
+            >Github</a
+          >
+        </p>
+      </section>
+      <footer>
+        <p><span class="emphasized-text">Contact:</span> team (at) pgai.dev</p>
+      </footer>
     </div>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
