@@ -21,13 +21,7 @@ a {
 nav {
     position: sticky;
     top: 0;
-    background-color: aquamarine;
     transition: background-color 0.5s ease-in-out;
-    z-index: 100;
-}
-
-nav.scrolled {
-    background-color: black;
 }
 
 nav img {
